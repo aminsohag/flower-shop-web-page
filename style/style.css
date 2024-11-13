@@ -14,11 +14,13 @@
     font-size: 53px;
     font-weight: 700;
     color: #272727;
+    margin-bottom: 20px;
 }
 .banner-des{
     font-size: 12px;
     font-weight: 300;
     line-height: 20px;
+    margin-bottom: 20px;
 }
 .banner-btn{
     background-color: #E55473;
@@ -69,21 +71,22 @@
     font-weight: 600;
     color: #272727;
     text-align: center;
+    margin-top: 20px;
 }
 .fea-image{
     width: 310px;
-    height: 360px;
     background-color:rgba(167, 33, 98, 0.15);
-    border-radius: 201px 201px 0 0;
+    border-radius:50% 50%  0 0;
 }
 .fea-img{
     width: 207px;
     height: 286px;
-    padding: 110px 77px 0 ;
+    padding: 73px 51px 0 ;
 }
 .feature-card{
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 /* third section */
@@ -101,5 +104,163 @@
     padding: 65px 115px;
 }
 .card-all{
+    text-align: center;
+}
+
+/* fourth section */
+.sign-up{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgba(167, 33, 98, 0.15);
+}
+.sign-title{
+    font-size: 26px;
+    font-weight: 700;
+    color: #272727;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.sign-des{
+    font-size: 12px;
+    font-weight: 400;
+    color: #272727;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.sign-off{
+    color: #E55473;
+}
+.sign-btn{
+    background-color: #E55473;
+    font-size:13px ;
+    font-weight: 600;
+    padding: 13px 27px;
+    border-radius:5px ;
+    border: none;
+    text-align: center;
+}
+.sign-text{
+    margin: 154px 124px 108px 244px;
+    text-align: center;
+}
+.sign-image{
+    margin: 67px 287px 67px 0;
+}
+.sign-img{
+    width: 213px;
+    height: 282px;
+}
+
+/* fifth section */
+.social{
+    max-width: 964px;
+    margin: 0 auto;
+}
+.social-text{
+    width: 397px;
+    text-align: center;
+    margin: 85px 283px 32px;
+}
+.social-title{
+    font-size: 26px;
+    font-weight: 700;
+    color: #111010;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.social-des{
+    font-size: 12px;
+    font-weight: 300;
+    color: #272727;
+    text-align: center;
+    margin-bottom: 32px;
+}
+.img-card{
+    display: flex;
+    gap: 16px;
+}
+.image-card{
+    width: 230px;
+    height: 265px;
+}
+
+/* sixth section */
+.deal{
+    max-width: 964px;
+    margin: 0 auto;
+}
+.latest{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../Flower\ Asset/Rectangle 9.png');
+    background-size: cover;
+    background-position: center;
+    margin: 85px 0;
+}
+.deal-title{
+    font-size: 32px;
+    font-weight: 700;
+    color: #272727;
+    text-align: center;
+    margin-bottom: 12px;
+}
+.deal-des{
+    font-size: 12px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 32px;
+}
+.input{
+    padding: 13px 200px 13px 13px;
+    margin-right: 12px;
+    text-align: center;
+}
+.deal-btn{
+    background-color: #E55473;
+    font-size:13px ;
+    font-weight: 600;
+    padding: 13px 27px;
+    border-radius:5px ;
+    border: none;
+    text-align: center;
+}
+.deals{
+    width: 580px;
+    padding: 81px 192px;
+}
+
+/* footer section */
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #111010;
+}
+.footer-title{
+    font-size: 32px;
+    font-weight: 700;
+    color: #E55473;
+    text-align: center;
+    margin: 85px 0 16px 0;
+}
+.shop{
+    color: #FFFFFF;
+}
+.footer-des{
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 20px;
+    color: #FFFFFF;
+    width: 418px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.footer-copy{
+    font-size: 10px;
+    font-weight: 300;
+    color: #FFFFFF;
+    margin-bottom: 85px;
     text-align: center;
 }
